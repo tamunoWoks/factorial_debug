@@ -26,5 +26,6 @@ def factorial(n):
     logging.debug('End of factorial(' + str(n) + ')')
     return total  # Return the computed factorial
 
-# Call factorial function and print result
 print(factorial(5))
+
+logging.debug('End of program')
