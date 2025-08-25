@@ -9,3 +9,6 @@ This script calculates the **factorial** of a given number while using Python’
   - Start and end of the factorial function.
   - Each loop iteration, including the current multiplier (`i`) and running total.
 - Demonstrates configurable logging output with timestamps and log levels.
+
+### Known Issue
+The current implementation multiplies by 0 at the beginning of the loop, which always sets the factorial result to 0 for all inputs greater than 0.
